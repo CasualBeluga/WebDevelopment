@@ -1,0 +1,20 @@
+/* Rectangle styling */
+.cardBody {
+  position: relative; /* Needed for absolute positioning of text */
+  width: 300px;
+  height: 150px;
+  background-color: #C4B465;
+  border-radius: 8px;
+}
+
+/* Text overlay styling */
+.cardText {
+  position: absolute;
+  top: 15%; /* Center vertically */
+  left: 25%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Perfect centering */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none; /* Prevent text from blocking clicks */
+}
