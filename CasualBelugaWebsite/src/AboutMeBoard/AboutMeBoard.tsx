@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import InfoCard from './infoCard'
+import '../App.css';
 
 function AboutMeBoard() {
   //const [zoomIn, setZoomIn] = useState(0)
